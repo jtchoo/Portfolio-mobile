@@ -4,7 +4,7 @@ body {
 
 nav li {
 	display: inline;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 
 nav {
@@ -96,9 +96,8 @@ h2{
 	display:inline-block;
 }
 
-#emailtext {
-	display:inline-block;
-	font-size: 30px;
+.gmail a {
+	font-size: 40px;
 }
 
 .linkedin a {
@@ -163,8 +162,8 @@ h2{
 #welcome {
 	text-align: center;
 	padding: 30px;
-	padding-top:100px;
-	padding-bottom:1em;
+	padding-top:80px;
+	/* padding-bottom:1em; */
 }
 
 /* .homebg{
@@ -218,4 +217,24 @@ footer{
 	color: black;
 	padding-top: 10px;
 	text-align: center;
+}
+
+/* .decoration {
+	display:flex;
+	
+} */
+
+#balloon1 {
+	width:70%;
+	padding:15px;
+	display:flex;
+	margin:auto;
+}
+
+.button {
+	/* color: white; */
+	padding: 15px 25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
 }
